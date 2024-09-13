@@ -1,0 +1,173 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 50%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background-color: #000; /* Optional: background for better visibility */
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0; /* Remove the border */
+  border-radius: 30px; /* Optional: rounded corners */
+}
+
+.Logo {
+  height: 40%;
+  pointer-events: none;
+}
+
+.Screenshoot {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.TypeScriptLogo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Style the overall form */
+#quizForm {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #3365b6;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Spacing and layout for the options */
+.option-group {
+  margin-bottom: 20px;
+}
+
+/*.option-group input[type="radio"] {
+  margin-right: 10px;
+}*/
+
+.option-group label {
+  font-size: 60px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+/* Style the submit button */
+.submit-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 60px;
+  transition: background-color 0.3s ease;
+}
+
+/* Add hover effect for the button */
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+/* Style the result paragraph */
+#result {
+  margin-top: 20px;
+  font-size: 60px;
+  color: #ff5722;
+}
+
+/* Custom radio button styling */
+.radio-custom {
+  display: inline-block;
+  width: 20px; /* Adjust the size */
+  height: 20px; /* Adjust the size */
+  border-radius: 50%;
+  border: 2px solid #4CAF50; /* Border color */
+  background-color: #fff;
+  vertical-align: middle;
+  margin-right: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+/* Checkmark inside the radio button */
+input[type="radio"]:checked + .radio-custom::before {
+  content: '';
+  display: block;
+  width: 30px; /* Adjust size of the inner circle */
+  height: 30px; /* Adjust size of the inner circle */
+  border-radius: 50%;
+  background-color: #4CAF50; /* Color of the selected state */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.option-group input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.code-block {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+.h1 {
+    color: #333;
+}
+
+.body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
