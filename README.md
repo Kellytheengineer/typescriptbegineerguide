@@ -52,7 +52,7 @@ The application will open in your default browser at `http://localhost:3000`.
 
 ## 🎮 How to Use
 
-1. Start with the "Introduction to TypeScript" lesson on the homepage.
+1. Start with the "TypeScript for Beginners: Avengers Assemble!" lesson on the homepage.
 2. Progress through the lessons, completing interactive exercises as you go.
 3. Take quizzes to test your knowledge after each section.
 4. Watch tutorial videos for additional explanations and examples.
