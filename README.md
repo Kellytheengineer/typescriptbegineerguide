@@ -32,7 +32,7 @@ Before you begin, ensure you have the following installed on your system:
 
 2. Navigate to the project directory:
    ```
-   cd marvel-typescript-adventure
+   cd 
    ```
 
 3. Install the dependencies:
